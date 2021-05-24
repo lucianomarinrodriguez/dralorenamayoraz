@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+@import url(https://allfont.es/allfont.css?fonts=cooperhewitt-book);
+
+$colorRosa: #ed8b8b;
+$colorVerde: #a5b889;
+$colorBlanco: #ffffff;
+$fuenteTitulo: 70px;
+$margenSuperiorPie: 30px;
+$estandar: 10px;
+
+.fondoVerde{
+  background-color: $colorVerde;
+}
+
+.encabezado__tituloPagina {
+  color: $colorBlanco !important;
+  font-family: 'Allura', cursive !important;
+  font-size: $fuenteTitulo/2 !important;
+  /*margin-right: $estandar*50 !important;*/
+ }
+
+.letraBlanca{
+  color: $colorBlanco !important;
+}
+
+.navbar-collapse{
+  flex-grow: 0
+}
+
+.main__tituloPrincipal{
+    color: $colorRosa;
+    text-align: center;
+    font-family: 'CooperHewitt-Book', arial;
+    grid-area: titulo;
+  }
+
+  .section__border--color{
+    color: $colorRosa;
+  }
+
+  .texto{
+    font-family: 'CooperHewitt-Book', arial;
+  }
+
+  .encabezado__menu__opcion--formato {
+    color: $colorBlanco !important;
+    font-family: 'CooperHewitt-Book', arial !important;
+    font-size: 1rem !important;
+   }
+
+  .section__border{
+    /*height: 500px;
+    width: calc(50% - 21px);*/
+    background-color: $colorBlanco;
+    border: 3px solid $colorVerde;
+    padding: $estandar/2;
+    /*margin: 2px;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .piePagina{
+    margin-top: $margenSuperiorPie*2;
+    background-image:linear-gradient($colorVerde, $colorBlanco);
+    /*background-color: $colorVerde;*/
+    width: 100%;
+    /*margin-left: 2px;*/
+    height: $estandar*6.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: $estandar*2;
+    align-content: center;
+    justify-content: flex-end;
+   }
+
+   .piePagina__icon{
+     margin-left: $estandar;
+   }

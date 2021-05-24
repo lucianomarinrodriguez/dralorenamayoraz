@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url(https://allfont.es/allfont.css?fonts=cooperhewitt-book);
+.fondoVerde {
+  background-color: #a5b889;
+}
+
+.encabezado__tituloPagina {
+  color: #ffffff !important;
+  font-family: 'Allura', cursive !important;
+  font-size: 35px !important;
+  /*margin-right: $estandar*50 !important;*/
+}
+
+.letraBlanca {
+  color: #ffffff !important;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.main__tituloPrincipal {
+  color: #ed8b8b;
+  text-align: center;
+  font-family: 'CooperHewitt-Book', arial;
+  grid-area: titulo;
+}
+
+.section__border--color {
+  color: #ed8b8b;
+}
+
+.texto {
+  font-family: 'CooperHewitt-Book', arial;
+}
+
+.encabezado__menu__opcion--formato {
+  color: #ffffff !important;
+  font-family: 'CooperHewitt-Book', arial !important;
+  font-size: 1rem !important;
+}
+
+.section__border {
+  /*height: 500px;
+    width: calc(50% - 21px);*/
+  background-color: #ffffff;
+  border: 3px solid #a5b889;
+  padding: 5px;
+  /*margin: 2px;*/
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.piePagina {
+  margin-top: 60px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b889), to(#ffffff));
+  background-image: linear-gradient(#a5b889, #ffffff);
+  /*background-color: $colorVerde;*/
+  width: 100%;
+  /*margin-left: 2px;*/
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.piePagina__icon {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

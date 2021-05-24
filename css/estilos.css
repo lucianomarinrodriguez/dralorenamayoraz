@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+@import url(https://allfont.es/allfont.css?fonts=cooperhewitt-book);
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color:#a5b889;
+   }
+
+   .logoBanner{
+    height: 190px;
+    float: left;
+    margin: 5px;
+  }
+
+h1 {
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    padding-top: 50px;
+   }
+
+   .transicion:hover{
+    transition: 5s;
+    font-size: 60px;
+   }
+
+nav {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 55px;
+   }
+
+ul {
+    background-color:#a5b889;
+    color:#ffffff;
+    list-style: none;
+   }
+
+   nav ul li{
+     display: inline-block;
+     font-family: 'CooperHewitt-Book', arial;
+     width: 10%;
+     position: relative;
+     font-size: 16px;
+     text-decoration: none;
+   }
+
+   nav ul li a{
+    text-decoration: none;
+   }
+
+   nav ul ul{
+     position: absolute;
+     display: none;
+     width: 100%;
+     top: 33px;
+     left: 78px;
+     text-align: left;
+     padding: 5px;
+   }
+
+   nav ul ul li{
+     display: block;
+     width: 100%;
+     margin-bottom: 10px;
+   }
+
+   nav ul li:hover ul{
+     display: block;
+   }
+
+  .menu{
+    color:#ffffff;
+  }
+
+  .tituloPrincipal1{
+    color:#ed8b8b;
+    text-align: center;
+    font-family: 'CooperHewitt-Book', arial;
+    grid-area: titulo;
+  }
+
+  .tituloPrincipal{
+    color:#ed8b8b;
+    text-align: center;
+    font-family: 'CooperHewitt-Book', arial;
+  }
+
+  .rosa{
+    color:#ed8b8b;
+  }
+
+  .cuerpo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .cuerpo1{
+    max-width: 100%;
+    min-height: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30px;
+    grid-template-areas: 
+      "titulo titulo"
+      "sec1 sec2"
+  }
+
+  .cuerpoInterno{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .sec1{
+    /*height: 500px;
+    width: calc(50% - 21px);*/
+    background-color: #ffffff;
+    border: 3px solid #a5b889;
+    margin: 2px;
+    padding: 5px;
+    grid-area: sec1;
+  }
+
+  .sec2{
+    /*height: 500px;
+    width: calc(50% - 21px);*/
+    background-color: #ffffff;
+    border: 3px solid #a5b889;
+    margin: 2px;
+    padding: 5px;
+    grid-area: sec2;
+  }
+
+  .sec{
+    height: 500px;
+    width: calc(50% - 21px);
+    background-color: #ffffff;
+    border: 3px solid #a5b889;
+    margin: 2px;
+    padding: 5px;
+  }
+
+  /*Movil*/
+  @media (max-width: 360px) {
+    .cuerpo1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 30px;
+      grid-template-areas: 
+        "titulo"
+        "sec1"
+        "sec2"
+    }
+  }
+
+    /*Tablet*/
+    @media (min-width: 361px) and (max-width: 768px) {
+      .cuerpo1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px;
+        grid-template-areas: 
+          "titulo"
+          "sec2"
+          "sec1"
+      }
+    }
+
+  .verde{
+    color:#a5b889;
+  }
+
+  table {
+    border: 3px solid;
+    width: 699px;
+    height: 500px;
+   }
+  
+  th {
+    color:#ed8b8b;
+    background-color:#f6eec5;
+    border: 1px solid;
+   }
+  
+   tr, td {
+    border: 1px solid;
+   }
+
+   fieldset {
+    border: 3px solid #a5b889;
+    height: 474px;
+    padding: 10px;
+   }
+
+   input {
+    border: 1px solid #a5b889;
+   }
+
+   textarea {
+    border: 3px solid #a5b889;
+    width: 647px;
+    height: 247px;
+    padding: 10px;
+   }
+
+   .piePagina{
+    background-image:linear-gradient(#a5b889, #ffffff);
+    width: 1414px;
+    margin-left: 2px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    align-content: center;
+    justify-content: flex-end;
+   }
+
+   footer a{
+    margin-left: 10px;
+  }
+
+   /*footer {
+    float:inherit;
+    text-align: right;
+    
+   }
+
+   .pie{
+     display: inline-block;
+     margin: 10px;
+   }*/
