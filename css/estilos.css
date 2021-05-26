@@ -7,7 +7,7 @@
   padding: 0;
  }
 
-header {
+/*header {
     height: 200px;
     width: 100%;
     background-color:#a5b889;
@@ -79,7 +79,7 @@ ul {
 
   .menu{
     color:#ffffff;
-  }
+  }*/
 
   .tituloPrincipal1{
     color:#ed8b8b;
@@ -184,7 +184,7 @@ ul {
 
   table {
     border: 3px solid;
-    width: 699px;
+    width: 680px;
     height: 500px;
    }
   
@@ -215,7 +215,7 @@ ul {
     padding: 10px;
    }
 
-   .piePagina{
+   /*.piePagina{
     background-image:linear-gradient(#a5b889, #ffffff);
     width: 1414px;
     margin-left: 2px;
@@ -229,7 +229,7 @@ ul {
 
    footer a{
     margin-left: 10px;
-  }
+  }*/
 
    /*footer {
     float:inherit;
