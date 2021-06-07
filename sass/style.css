@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @import url(https://allfont.es/allfont.css?fonts=cooperhewitt-book);
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .fondoVerde {
   background-color: #a5b889;
 }
@@ -17,6 +22,10 @@
 
 .letraVerde {
   color: #a5b889 !important;
+}
+
+.letraRosa {
+  color: #ed8b8b !important;
 }
 
 .navbar-collapse {
@@ -67,6 +76,19 @@
   color: #ed8b8b;
   background-color: #f6eec5;
   border: 1px solid;
+}
+
+input {
+  border: 2px solid #a5b889 !important;
+}
+
+.form__combox {
+  border: 2px solid #a5b889 !important;
+}
+
+.form__button {
+  background-color: #a5b889;
+  border-color: #a5b889;
 }
 
 .piePagina {

@@ -2,6 +2,11 @@
 
 @import url(https://allfont.es/allfont.css?fonts=cooperhewitt-book);
 
+* {
+  margin: 0;
+  padding: 0;
+ }
+
 $colorRosa: #ed8b8b;
 $colorVerde: #a5b889;
 $colorBlanco: #ffffff;
@@ -27,6 +32,10 @@ $estandar: 10px;
 
 .letraVerde{
   color: $colorVerde !important;
+}
+
+.letraRosa{
+  color: $colorRosa !important;
 }
 
 .navbar-collapse{
@@ -70,6 +79,19 @@ $estandar: 10px;
     color: $colorRosa;
     background-color: $colorAmarillo;
     border: 1px solid;
+   }
+
+   input {
+    border: 2px solid $colorVerde !important;
+   }
+
+   .form__combox {
+    border: 2px solid $colorVerde !important;
+   }
+
+   .form__button {
+     background-color: $colorVerde;
+     border-color: $colorVerde;
    }
 
   .piePagina{

@@ -82,77 +82,50 @@
                 <div class="col-sm-12 col-md-12 col-xl-6">
                     <div class="section__border rounded">
                         <form action="" method="post" enctype="application/x-www-form-urlencoded">
-                            <fieldset><br>
-                                <legend class="letraRosa texto">Dejame tu Consulta</legend>
+                            <fieldset>
+                                <legend class="rosa">Dejame tu Consulta</legend>
 
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control letraVerde texto" placeholder="Nombre" aria-label="Nombre">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control letraVerde texto" placeholder="Apellido" aria-label="Apellido">
-                                        </div>
+                                    <div class="letraVerde">
+                                        <label for="nombre">Nombre:</label>
+                                        <input class="letraVerde" type="text" name="nombre" id="">
+                                        <label for="apellido">Apellido:</label>
+                                        <input class="letraVerde" type="text" name="apellido" id=""><br><br>
+                                    </div>
+
+                                    <div class="letraVerde">
+                                        <label for="email">Email:</label>
+                                        <input class="letraVerde" type="email" name="email" id="">
+                                        <input class="letraVerde" type="radio" name="hombre" id="">
+                                        <label for="hombre">Hombre</label>
+                                        <input class="letraVerde" type="radio" name="mujer" id="">
+                                        <label for="mujer">Mujer</label><br><br>
+                                    </div>
+
+                                    <div class="letraVerde">
+                                        <label for="edad">Edad:</label>
+                                        <select class="letraVerde" name="edad" id="">
+                                            <option value="1">Menos de 20 años</option>
+                                            <option value="2">De 20 a 30 años</option>
+                                            <option value="3">De 30 a 40 años</option>
+                                            <option value="4">De 40 a 50 años</option>
+                                            <option value="5">De 50 a 60 años</option>
+                                            <option value="6">Más de 60 años</option>
+                                        </select>
                                     </div><br>
 
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="email" class="form-control letraVerde texto" placeholder="Email" aria-label="Email">
-                                        </div>
-                                    </div><br>
+                                    <div class="letraVerde">
+                                        <p><label for="consulta">Consulta:</label></p>
+                                        <textarea class="letraVerde" name="consulta" id="" cols="50" rows="10"></textarea>
+                                    </div>
+                                        
+                                    <div class="letraVerde">
+                                        <label for="acepto">Acepto ser contactado vía email</label>
+                                        <input class="letraVerde" type="checkbox" name="acepto" id="" value="1"><br><br>
+                                    </div>
 
-                                    <div class="row">
-                                        <div class="col">
-                                            <select id="inputState" class="form-select letraVerde form__combox texto">
-                                                <option selected>Edad</option>
-                                                <option value="1">Menos de 20 años</option>
-                                                <option value="2">De 20 a 30 años</option>
-                                                <option value="3">De 30 a 40 años</option>
-                                                <option value="4">De 40 a 50 años</option>
-                                                <option value="5">De 50 a 60 años</option>
-                                                <option value="6">Más de 60 años</option>
-                                            </select>
-                                        </div>
-                                        <div class="col">
-                                            <div class="row mb-3">
-                                                <div class="col-sm-10">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                                    <label class="form-check-label letraVerde texto" for="gridRadios1">
-                                                    Hombre
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                                    <label class="form-check-label letraVerde texto" for="gridRadios2">
-                                                    Mujer
-                                                    </label>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><br>
-
-                                    <div class="row">
-                                      <div class="form-floating">
-                                        <textarea class="form-control letraVerde form__combox texto" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                        <label for="floatingTextarea2" class="letraVerde texto">Consulta</label>
-                                      </div>
-                                    </div><br>
-
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                                <label class="form-check-label letraVerde texto" for="flexSwitchCheckDefault">Acepto ser contactado vía email</label>
-                                            </div>
-                                        </div>
-                                    </div><br>
-                                      
-                                    <div class="row">
-                                        <div class="col">  
-                                            <button type="submit" class="btn btn-primary texto form__button">Enviar</button>
-                                            <button type="reset" class="btn btn-primary texto form__button">Limpiar</button>
-                                        </div>
+                                    <div class="letraVerde">
+                                        <input class="letraVerde" type="submit" value="Enviar">
+                                        <input class="letraVerde" type="reset" value="Limpiar">
                                     </div>
 
                             </fieldset>
