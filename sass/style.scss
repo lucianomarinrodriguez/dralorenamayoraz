@@ -5,6 +5,7 @@
 $colorRosa: #ed8b8b;
 $colorVerde: #a5b889;
 $colorBlanco: #ffffff;
+$colorAmarillo: #f6eec5;
 $fuenteTitulo: 70px;
 $margenSuperiorPie: 30px;
 $estandar: 10px;
@@ -22,6 +23,10 @@ $estandar: 10px;
 
 .letraBlanca{
   color: $colorBlanco !important;
+}
+
+.letraVerde{
+  color: $colorVerde !important;
 }
 
 .navbar-collapse{
@@ -60,6 +65,12 @@ $estandar: 10px;
     display: flex;
     flex-direction: column;
   }
+
+  .table__thead {
+    color: $colorRosa;
+    background-color: $colorAmarillo;
+    border: 1px solid;
+   }
 
   .piePagina{
     margin-top: $margenSuperiorPie*2;

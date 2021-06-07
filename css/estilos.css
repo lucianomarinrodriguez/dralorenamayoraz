@@ -188,15 +188,15 @@ ul {
     height: 500px;
    }
   
-  th {
+  /*th {
     color:#ed8b8b;
     background-color:#f6eec5;
     border: 1px solid;
-   }
+   }*/
   
-   tr, td {
+   /*tr, td {
     border: 1px solid;
-   }
+   }*/
 
    fieldset {
     border: 3px solid #a5b889;

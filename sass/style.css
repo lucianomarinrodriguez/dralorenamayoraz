@@ -15,6 +15,10 @@
   color: #ffffff !important;
 }
 
+.letraVerde {
+  color: #a5b889 !important;
+}
+
 .navbar-collapse {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
@@ -57,6 +61,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.table__thead {
+  color: #ed8b8b;
+  background-color: #f6eec5;
+  border: 1px solid;
 }
 
 .piePagina {
