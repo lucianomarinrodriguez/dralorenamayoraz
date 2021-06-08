@@ -75,6 +75,7 @@
 .table__thead {
   color: #ed8b8b;
   background-color: #f6eec5;
+  font-weight: bold !important;
   border: 1px solid;
 }
 
