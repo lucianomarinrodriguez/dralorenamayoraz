@@ -68,7 +68,7 @@ $estandar: 10px;
     width: calc(50% - 21px);*/
     background-color: $colorBlanco;
     border: 3px solid $colorVerde;
-    padding: $estandar/2;
+    padding: $estandar/2 !important;
     /*margin: 2px;*/
     height: 100%;
     display: flex;

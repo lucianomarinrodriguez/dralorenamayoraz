@@ -60,7 +60,7 @@
     width: calc(50% - 21px);*/
   background-color: #ffffff;
   border: 3px solid #a5b889;
-  padding: 5px;
+  padding: 5px !important;
   /*margin: 2px;*/
   height: 100%;
   display: -webkit-box;
