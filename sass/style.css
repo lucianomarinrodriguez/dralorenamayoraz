@@ -16,6 +16,11 @@
   /*margin-right: $estandar*50 !important;*/
 }
 
+header nav div div {
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+}
+
 .letraBlanca {
   color: #ffffff !important;
 }

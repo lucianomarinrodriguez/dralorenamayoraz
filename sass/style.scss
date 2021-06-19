@@ -26,6 +26,10 @@ $estandar: 10px;
   /*margin-right: $estandar*50 !important;*/
  }
 
+ header nav div div {
+  flex-wrap:wrap !important;
+ }
+
 .letraBlanca{
   color: $colorBlanco !important;
 }
